@@ -10,6 +10,12 @@
             "email": "cy@rossignols.me"
         }
     ],
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/apiship/predis.git"
+    }
+  ],
     "require": {
         "php": ">=5.6.4",
         "illuminate/cache": "^5.4 || ^6.0 || ^7.0 || ^8.0",
@@ -19,7 +25,7 @@
         "illuminate/session": "^5.4 || ^6.0 || ^7.0 || ^8.0",
         "illuminate/support": "^5.4 || ^6.0 || ^7.0 || ^8.0",
         "monospice/spicy-identifiers": "^0.1",
-        "predis/predis": "^1.1"
+        "predis/predis": "dev-bugfix"
     },
     "require-dev": {
         "laravel/framework": "^5.4 || ^6.0 || ^7.0 || ^8.0",
